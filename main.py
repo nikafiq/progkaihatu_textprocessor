@@ -4,9 +4,9 @@ import chardet
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
-#Tk().withdraw() #no full GUI
-#testfile = askopenfilename() #show an "Open" dialog box
-testfile = 'test.txt' #temporary filepath for testing purpose
+Tk().withdraw() #no full GUI
+testfile = askopenfilename() #show an "Open" dialog box
+#testfile = 'test.txt' #temporary filepath for testing purpose
 
 print("Your test file is: "+testfile)
 print(open(testfile, 'r').read)
